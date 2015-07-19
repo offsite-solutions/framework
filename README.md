@@ -1,3 +1,13 @@
+Offsite Framework
+=================
+
+A Yii 2 starter project based on Yii2 Advanced template and the following starter templates:
+
+* https://github.com/trntv/yii2-starter-kit
+* https://github.com/vova07/yii2-start
+* https://github.com/nenad-zivkovic/yii2-advanced-template
+
+
 Yii 2 Advanced Project Template
 ===============================
 
