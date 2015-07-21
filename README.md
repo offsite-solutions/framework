@@ -3,26 +3,32 @@ Offsite Framework
 
 A Yii 2 starter project based on Yii2 Advanced template and the following starter templates:
 
-* [Trntv's Yii2 Starter Kit](https://github.com/trntv/yii2-starter-kit)
-* [Vova07's Yii2 Start](https://github.com/vova07/yii2-start)
-* [Nenad Zivkovic's Yii2 Advanced Template](https://github.com/nenad-zivkovic/yii2-advanced-template)
+* [Trntv's Yii 2 Starter Kit](https://github.com/trntv/yii2-starter-kit)
+* [Vova07's Yii 2 Start](https://github.com/vova07/yii2-start)
+* [Nenad Zivkovic's Yii 2 Advanced Template](https://github.com/nenad-zivkovic/yii2-advanced-template)
 * [Kartik's Practical Template](https://github.com/kartik-v/yii2-app-practical-a)
 
-Yii 2 Advanced Project Template
-===============================
+Offsite Framework Project Template
+==================================
 
-Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
+Offsite Framework Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
 developing complex Web applications with multiple tiers.
 
-The template includes three tiers: front end, back end, and console, each of which
+The template includes four tiers: front end, back end, storage and console, each of which
 is a separate Yii application.
 
 The template is designed to work in a team development environment. It supports
 deploying the application in different environments.
 
-[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-app-advanced/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Total Downloads](https://poser.pugx.org/yiisoft/yii2-app-advanced/downloads.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Build Status](https://travis-ci.org/yiisoft/yii2-app-advanced.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-app-advanced)
+Configuration
+=============
+- Copy or rename the provided `.env.dist` file to `.env` and set the configuration parameters. Alternatively, you can 
+also set all parameters as environment variables, they will not be overridden by paramters set in the `.env` file
+
+Modules
+=======
+* [VLucas'es PHP DotEnv](https://github.com/vlucas/phpdotenv) implementation for loading environment variables from `.env` file
+
 
 DIRECTORY STRUCTURE
 -------------------
